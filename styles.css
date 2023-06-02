@@ -1,0 +1,46 @@
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.eyeL {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 15%;
+}
+
+.eyeR {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+.innerEyeL,
+.innerEyeR {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.mouth {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
