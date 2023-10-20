@@ -4,9 +4,17 @@ body {
   justify-content: center;
 }
 
-.head {
+
+.container {
   display: flex;
   justify-content: center;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 500px;
   height: 500px;
   border-radius: 50%;
