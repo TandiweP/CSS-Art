@@ -21,7 +21,13 @@ body {
   background-color: red;
 }
 
+.eyeContainer {
+  display: flex;
+}
+
 .eyeL {
+  display:flex;
+  align-items: center;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -31,6 +37,8 @@ body {
 }
 
 .eyeR {
+  display:flex;
+  align-items: center;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -41,8 +49,8 @@ body {
 
 .innerEyeL,
 .innerEyeR {
-  width: 5px;
-  height: 5px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background-color: yellow;
 }
